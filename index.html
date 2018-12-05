@@ -5,17 +5,6 @@
   <title>israel</title>
 
   <style>
-    @media only screen 
-      and (min-device-width : 320px) 
-      and (max-device-width : 568px) {
-        body {font-size: 2em;}
-        img, iframe {width: 100%;}
-      }
-
-    @media only screen 
-      and (min-device-width : 800px) {
-        img, iframe {width: 40em;}
-      }
 
     h1.shalom {
       font-weight: lighter;
@@ -46,7 +35,7 @@
       margin: 0 auto;
     }
 
-    .topbutton {
+    .top-button {
       text-align: center;
       display: block;
       padding: 10px;
@@ -54,6 +43,20 @@
       background-color: teal;
       border-radius: 7px;
     }
+
+    @media only screen 
+      and (min-device-width : 320px) 
+      and (max-device-width : 568px) {
+        body {font-size: 3rem;}
+        img, iframe {width: 100%;}
+        .top-button {padding: 20px;}
+      }
+
+    @media only screen 
+      and (min-device-width : 800px) {
+        img, iframe {width: 40em;}
+      }
+
   </style>
 </head>
 
@@ -135,7 +138,7 @@
           <img src="http://joxi.ru/12MW4aWsM3qBRr.jpg"></img>
         </details> <br>
 
-    <a href="#" title="Вернуться к началу" class="topbutton">Наверх</a>
+    <a href="#" title="Вернуться к началу" class="top-button">Наверх</a>
   </div>
 </body>
 </html>
